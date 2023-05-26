@@ -1,0 +1,37 @@
+.clientes-bg {
+  background-color: #000
+}
+
+.clientes-conteudo .titulo {
+  color: #fff;
+  padding-top: 120px;
+  position: relative;
+}
+
+.clientes-conteudo .titulo::after {
+  content: "";
+  display: inline-block;
+  height: 4px;
+  width: 100px;
+  bottom: -8px;
+  background: var(--gradiente);
+}
+
+.clientes-conteudo p {
+  font-size: 1.125rem;
+  font-family: 'roboto', sans-serif;
+  color: var(--cor-s5);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.clientes-empresas ul {
+  display: flex;
+  gap: 20px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.clientes-empresas ul li img {
+  border-radius: 4px;
+}

@@ -1,0 +1,45 @@
+.home-bg {
+  background: var(--cor-s2);
+}
+
+.home {
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+  padding-top: 160px;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-conteudo p {
+  font-size: 2.25rem;
+  color: var(--cor-s5);
+  position: relative;
+  display: grid;
+}
+
+.home-conteudo p:nth-child(3)::after {
+  justify-self: center;
+}
+
+
+
+.home-conteudo p:nth-child(3)::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100px;
+  bottom: -16px;
+  background: #111;
+  position: absolute;
+}
+
+.home-conteudo {
+  display: grid;
+  justify-items: center;
+}
+
+.home-conteudo h1 {
+  font-size: 4rem;
+  color: var(--cor-p1);
+}

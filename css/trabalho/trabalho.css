@@ -1,0 +1,45 @@
+
+
+.trabalho-bg {
+  background-color: #111;
+}
+
+.trabalho-conteudo [src^='img/icones/logo-marca'] {
+padding-top: 60px;
+}
+
+.trabalho-conteudo h2 {
+  font-size: 3rem;
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  color: #f7f7f7;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  line-height: 1;
+}
+
+.qualidade-lista ul {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 120px;
+}
+
+.qualidade-lista ul li {
+  display: grid;
+  justify-items: center;
+}
+
+.qualidade-lista ul li h3 {
+  color: #fff;
+  font-size: 1.725rem;
+  font-family: 'poppins', sans-serif;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.qualidade-lista ul li p {
+  color: #ccc;
+  line-height: 1.4;
+  font-family: "roboto", sans-serif;
+  text-align: center;
+}

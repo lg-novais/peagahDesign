@@ -1,0 +1,23 @@
+.rodape-bg{
+  background-color: #f7f7f7;
+}
+
+.rodape-conteudo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.copy {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.redes-lista ul {
+  display: flex;
+  gap: 20px;
+}
