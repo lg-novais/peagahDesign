@@ -14,7 +14,7 @@
   height: 4px;
   width: 100px;
   bottom: -8px;
-  background: var(--gradiente);
+  background: #111;
 }
 
 .clientes-conteudo p {
